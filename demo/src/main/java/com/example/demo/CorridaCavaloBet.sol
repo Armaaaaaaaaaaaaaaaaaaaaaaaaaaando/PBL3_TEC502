@@ -18,7 +18,7 @@ contract CorridaCavaloBet is BettingBase {
 
     function createRace(string[] memory horseNames, uint256[] memory horseOdds) public onlyOwner {
         require(horseNames.length == horseOdds.length, "Cavalos e incompatibilidade de probabilidades");
-        require(horseNames.length > 1, "Pelo menos dois cavalos necessários");
+        require(horseNames.length > 1, "Pelo menos dois cavalos necessarios");
 
         races.push(Race({
             horses: horseNames,

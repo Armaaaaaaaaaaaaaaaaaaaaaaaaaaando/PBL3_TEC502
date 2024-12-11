@@ -32,7 +32,7 @@ public class BettingDApp {
         BigInteger customGasLimit = BigInteger.valueOf(6_000_000); 
         ContractGasProvider gasProvider = new DefaultGasProvider();
 
-        String contractBinary = loadBytecodeFromFile("D:\\pbltres\\PBL3_TEC502\\demo\\src\\main\\java\\com\\example\\demo\\contractBytecode.txt");
+        String contractBinary = loadBytecodeFromFile("D:\\pbltres\\PBL3_TEC502\\demo\\src\\main\\java\\com\\example\\demo\\FootBytecode.txt");
         
         System.out.println("Versão da rede: " + web3j.netVersion().send().getNetVersion());
 
