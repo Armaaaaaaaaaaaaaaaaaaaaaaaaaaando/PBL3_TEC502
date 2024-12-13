@@ -133,7 +133,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
 
 <p align="center"><strong></strong></p>
 <p align="center">
-  <img src="Imagens/token ring.png" width = "400" />
+  <img src="imagens/fig 1.png" width = "400" />
 </p>
 <p align="center"><strong>
 </strong> Figura 1.  Visualização da interface do Remix IDE.</p>
@@ -142,7 +142,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
 
 <p align="center"><strong></strong></p>
 <p align="center">
-  <img src="Imagens/token ring.png" width = "400" />
+  <img src="imagens/fig 2.png" width = "400" />
 </p>
 <p align="center"><strong>
 </strong> Figura 2.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
@@ -159,7 +159,7 @@ Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essenci
 
 <p align="center"><strong></strong></p>
 <p align="center">
-  <img src="Imagens/token ring.png" width = "400" />
+  <img src="imagens/fig 3.png" width = "400" />
 </p>
 <p align="center"><strong>
 </strong> Figura 3.   Exibição da interface do remix IDE.</p>
