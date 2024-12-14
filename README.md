@@ -143,7 +143,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
   <img src="imagens/fig 1.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 1.  Visualização da interface do Remix IDE.</p>
+</strong> Figura 2.  Visualização da interface do Remix IDE.</p>
 
  Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada. A Figura 2 apresenta a visão do Ganache após a implantação do contrato. É possível verificar o endereço gerado para o contrato implantado, juntamente com a transação correspondente, exibindo o consumo de gás e o status da execução. Essa integração entre o Remix IDE e o Ganache foi crucial para validar a lógica e o comportamento dos contratos antes de integrá-los à aplicação principal.
 
@@ -152,7 +152,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
   <img src="imagens/fig 2.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 2.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
+</strong> Figura 3.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
 
 Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essencial para testar as funcionalidades dos contratos inteligentes. A interface do Remix, como mostrado na Figura 3, permite realizar transações e interagir diretamente com os métodos dos contratos implantados. No exemplo da figura 3, o contrato FootballBetting foi implantado, e suas principais funções são exibidas na interface. Essas funções incluem:
 
@@ -169,7 +169,7 @@ Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essenci
   <img src="imagens/fig 3.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 3.   Exibição da interface do remix IDE.</p>
+</strong> Figura 4.   Exibição da interface do remix IDE.</p>
 
 O Remix permite realizar testes para cada uma dessas funções manualmente, simulando as transações que serão executadas pela aplicação cliente desenvolvida em Java. Na aplicação final, essas mesmas interações serão realizadas automaticamente por meio da integração do Java com a blockchain, utilizando a biblioteca web3j para envio de transações e chamadas de leitura.
 
@@ -179,7 +179,14 @@ Os usuários cadastrados na aplicação foram capazes de realizar depósitos e a
 
 Após o término de cada evento, os resultados foram processados pelos contratos inteligentes. O algoritmo responsável pelo cálculo dos vencedores distribui os prêmios automaticamente entre os usuários que apostaram corretamente. 
 
-Por fim, o histórico de eventos e apostas foi acessado diretamente na blockchain. A aplicação recuperou as informações com sucesso, mostrando uma visão consolidada dos dados. Entre as informações destacadas estavam os nomes dos times, as odds, o total apostado em cada evento, os vencedores, e os prêmios distribuídos. Além disso, o Ganache forneceu suporte visual para acompanhar cada etapa do fluxo, desde a criação do contrato até o encerramento das transações.
+Por fim, o histórico de eventos e apostas foi acessado diretamente na blockchain. A aplicação recuperou as informações com sucesso, mostrando uma visão consolidada dos dados. Entre as informações destacadas estavam os nomes dos times, as odds, o total apostado em cada evento, os vencedores, e os prêmios distribuídos. Além disso, o Ganache forneceu suporte visual para acompanhar cada etapa do fluxo, desde a criação do contrato até o encerramento das transações. A seguir vemos um resumo sobre a sequência da comunicação.
+
+<p align="center"><strong></strong></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b58daa20-b1ad-4a4b-b28d-82b4b434cd86" width = "400" />
+</p>
+<p align="center"><strong>
+</strong> Figura 5.   Sequência da comunicação.</p>
 
 
 ## Conclusão
