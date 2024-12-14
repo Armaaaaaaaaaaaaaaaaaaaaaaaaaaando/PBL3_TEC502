@@ -44,7 +44,14 @@ Além das tecnologias é fundamental o entendimento de diversos conceitos que fo
 
 O termo Distributed Ledger Technology (DLT) refere-se a um conjunto de tecnologias que permitem o registro e a sincronização de dados em múltiplos locais por meio de um ledger descentralizado, sem a necessidade de uma autoridade central.
 
-Diferente de bancos de dados tradicionais, as DLTs garantem que as alterações nos registros sejam consensuadas entre os participantes da rede, promovendo segurança, transparência e resistência a falhas. As DLTs podem assumir diferentes formas, dependendo de como os dados são estruturados e validados. Elas se destacam por características como descentralização, imutabilidade e eficiência, sendo amplamente aplicáveis em setores que exigem alta confiabilidade em registros compartilhados. Entre os tipos de DLTs, destaca-se a blockchain, que é o modelo mais conhecido e amplamente adotado.
+Diferente de bancos de dados tradicionais, as DLTs garantem que as alterações nos registros sejam consensuadas entre os participantes da rede, promovendo segurança, transparência e resistência a falhas. As DLTs podem assumir diferentes formas, dependendo de como os dados são estruturados e validados. Elas se destacam por características como descentralização, imutabilidade e eficiência, sendo amplamente aplicáveis em setores que exigem alta confiabilidade em registros compartilhados. Entre os tipos de DLTs, destaca-se a blockchain, que é o modelo mais conhecido e amplamente adotado. Abaixo, segue um exemplo da visão de como funciona uma DLT em diferimento a um banco tradicional. 
+
+<p align="center"><strong></strong></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2672cc7-4c54-4366-b5dd-f179a2ffa685" width = "400" />
+</p>
+<p align="center"><strong>
+</strong> Figura 1.  Diferença entre banco centralizado e Ledge distribuido.</p>
 
 **Blockchain**
 
