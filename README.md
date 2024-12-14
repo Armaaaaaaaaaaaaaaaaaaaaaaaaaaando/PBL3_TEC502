@@ -143,7 +143,7 @@ O Remix não define diretamente o tipo de blockchain (pública ou privada) nem o
 
 Durante os testes realizados, foram implantados contratos inteligentes utilizando a plataforma Ethereum, com a execução de transações por meio do Ganache para simular o ambiente real. A seguir, estão detalhados os principais resultados alcançados: Inicialmente, os contratos inteligentes foram implantados na blockchain local. Cada contrato gerencia um conjunto de funcionalidades relacionadas a eventos esportivos e apostas, como criação de eventos, registro de apostas, e cálculo de resultados. No Ganache, é possível visualizar os endereços gerados para os contratos e acompanhar o consumo de gás em cada transação. O processo de implantação foi bem-sucedido, com os contratos respondendo corretamente às chamadas realizadas pela aplicação cliente.
 
- O processo de implantação é essencial para registrar os contratos na rede e garantir que eles estejam prontos para receber transações. Na Figura 1, é possível observar a interface do Remix IDE no momento em que um dos contratos foi implantado, utilizando o endpoint local do Ganache, o local onde está com um retângulo rosa. A interface mostra os detalhes do contrato, como os métodos disponíveis, os endereços gerados e as interações possíveis. Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada, indicado pelo retângulo verde. Também é possível considerar a quantidade de gas que é necessário para que o contrato seja utilizado.
+ O processo de implantação é essencial para registrar os contratos na rede e garantir que eles estejam prontos para receber transações. Na Figura 3, é possível observar a interface do Remix IDE no momento em que um dos contratos foi implantado, utilizando o endpoint local do Ganache, o local onde está com um retângulo rosa. A interface mostra os detalhes do contrato, como os métodos disponíveis, os endereços gerados e as interações possíveis. Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada, indicado pelo retângulo verde. Também é possível considerar a quantidade de gas que é necessário para que o contrato seja utilizado.
 
 <p align="center"><strong></strong></p>
 <p align="center">
@@ -152,7 +152,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
 <p align="center"><strong>
 </strong> Figura 3.  Visualização da interface do Remix IDE.</p>
 
- Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada. A Figura 2 apresenta a visão do Ganache após a implantação do contrato. É possível verificar o endereço gerado para o contrato implantado, juntamente com a transação correspondente, exibindo o consumo de gás e o status da execução. Essa integração entre o Remix IDE e o Ganache foi crucial para validar a lógica e o comportamento dos contratos antes de integrá-los à aplicação principal.
+ Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada. A Figura 4 apresenta a visão do Ganache após a implantação do contrato. É possível verificar o endereço gerado para o contrato implantado, juntamente com a transação correspondente, exibindo o consumo de gás e o status da execução. Essa integração entre o Remix IDE e o Ganache foi crucial para validar a lógica e o comportamento dos contratos antes de integrá-los à aplicação principal.
 
 <p align="center"><strong></strong></p>
 <p align="center">
@@ -161,7 +161,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
 <p align="center"><strong>
 </strong> Figura 4.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
 
-Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essencial para testar as funcionalidades dos contratos inteligentes. A interface do Remix, como mostrado na Figura 3, permite realizar transações e interagir diretamente com os métodos dos contratos implantados. No exemplo da figura 3, o contrato FootballBetting foi implantado, e suas principais funções são exibidas na interface. Essas funções incluem:
+Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essencial para testar as funcionalidades dos contratos inteligentes. A interface do Remix, permite realizar transações e interagir diretamente com os métodos dos contratos implantados. No exemplo da figura 5, o contrato FootballBetting foi implantado, e suas principais funções são exibidas na interface. Essas funções incluem:
 
   - createEvent: criação de novos eventos, especificando equipes e probabilidades.
   - placeBet: registro de apostas em eventos existentes.
