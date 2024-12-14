@@ -90,7 +90,14 @@ O Ganache, usado neste projeto para simular uma rede privada local, fornece flex
 
 Os contratos inteligentes, ou smart contracts, são programas autônomos que operam diretamente na blockchain. Eles são projetados para executar automaticamente um conjunto de regras predefinidas entre as partes envolvidas, sem necessidade de intervenção humana ou de terceiros confiáveis. Esses contratos garantem que as operações sejam realizadas de forma segura, transparente e imutável, características fundamentais para aplicações descentralizadas, como o sistema de apostas desenvolvido neste projeto.
  
-A principal função dos contratos inteligentes é permitir a automação de processos complexos e críticos, eliminando riscos associados à intervenção humana ou à manipulação de dados. No sistema de apostas descentralizado, os contratos inteligentes desempenham um papel central na implementação da lógica de negócios e no gerenciamento das operações principais. Para desenvolvê-los e testá-los, foi utilizada a ferramenta Remix, que oferece um ambiente prático e eficiente para escrever, compilar e depurar contratos inteligentes.
+A principal função dos contratos inteligentes é permitir a automação de processos complexos e críticos, eliminando riscos associados à intervenção humana ou à manipulação de dados. No sistema de apostas descentralizado, os contratos inteligentes desempenham um papel central na implementação da lógica de negócios e no gerenciamento das operações principais. Para desenvolvê-los e testá-los, foi utilizada a ferramenta Remix, que oferece um ambiente prático e eficiente para escrever, compilar e depurar contratos inteligentes. Com isso, podemos entender que o papel do contrato inteligente é executar uma lógica predefinida de forma descentralizada e segura, garantindo que as regras de uma transação sejam seguidas antes que ela seja adicionada à blockchain, como no exemplo abaixo.
+
+<p align="center"><strong></strong></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ab05bf5-27a4-464d-8f48-0967c2e69d66" width = "400" />
+</p>
+<p align="center"><strong>
+</strong> Figura 2.  Vizualização da operação do contrato inteligente.</p>
 
 Os contratos criados foram projetados para executar as seguintes operações principais:
 
@@ -143,7 +150,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
   <img src="imagens/fig 1.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 2.  Visualização da interface do Remix IDE.</p>
+</strong> Figura 3.  Visualização da interface do Remix IDE.</p>
 
  Após a execução da transação, o Ganache registrou a criação do contrato na blockchain simulada. A Figura 2 apresenta a visão do Ganache após a implantação do contrato. É possível verificar o endereço gerado para o contrato implantado, juntamente com a transação correspondente, exibindo o consumo de gás e o status da execução. Essa integração entre o Remix IDE e o Ganache foi crucial para validar a lógica e o comportamento dos contratos antes de integrá-los à aplicação principal.
 
@@ -152,7 +159,7 @@ Durante os testes realizados, foram implantados contratos inteligentes utilizand
   <img src="imagens/fig 2.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 3.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
+</strong> Figura 4.  Exibição da interface do ganache com exemplo de contrato implantado.</p>
 
 Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essencial para testar as funcionalidades dos contratos inteligentes. A interface do Remix, como mostrado na Figura 3, permite realizar transações e interagir diretamente com os métodos dos contratos implantados. No exemplo da figura 3, o contrato FootballBetting foi implantado, e suas principais funções são exibidas na interface. Essas funções incluem:
 
@@ -169,7 +176,7 @@ Durante o desenvolvimento, o Remix IDE foi utilizado como uma ferramenta essenci
   <img src="imagens/fig 3.png" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 4.   Exibição da interface do remix IDE.</p>
+</strong> Figura 5.   Exibição da interface do remix IDE.</p>
 
 O Remix permite realizar testes para cada uma dessas funções manualmente, simulando as transações que serão executadas pela aplicação cliente desenvolvida em Java. Na aplicação final, essas mesmas interações serão realizadas automaticamente por meio da integração do Java com a blockchain, utilizando a biblioteca web3j para envio de transações e chamadas de leitura.
 
@@ -186,7 +193,7 @@ Por fim, o histórico de eventos e apostas foi acessado diretamente na blockchai
   <img src="https://github.com/user-attachments/assets/b58daa20-b1ad-4a4b-b28d-82b4b434cd86" width = "400" />
 </p>
 <p align="center"><strong>
-</strong> Figura 5.   Sequência da comunicação.</p>
+</strong> Figura 6.   Sequência da comunicação.</p>
 
 
 ## Conclusão
